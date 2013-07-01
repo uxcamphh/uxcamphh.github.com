@@ -1,0 +1,132 @@
+
+
+/* START area for fixed header, must be 50px higher for logo */
+#home {
+  padding-top: 200px; /* from 120px; */
+} 
+
+.content {
+  padding-top: 150px; /* from 100px; */
+}
+
+#header {
+  background: none;
+}
+/* END area for fixed header */
+
+#page, #header, .title span {
+  background-color: #F0F0F0;
+}
+
+body{ min-height:100%; background:#fff; float:left; width:100%; font-size:.85em; color:#353232;}
+
+#main-menu ul li a {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-bottom: 80px;
+  text-decoration: none;
+}
+
+/* START Typo */
+html {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.title span {
+  font-family: Helvetica, Arial, sans-serif;
+  color: #A5A5A5;
+  text-transform: uppercase;
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+section #intro {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.7em;
+}
+/* END Typo */
+
+/* additional class for sponsor logos for 2 and one col. */
+/* Standard styles are 4 col                             */
+.thumbnail li.col-2, .grid-list li.col-2 { 
+  width: 46.77% ; /* image width must be min 480px */
+}
+
+.thumbnail li.col-1, .grid-list li.col-1 { 
+  width: 96.2%; /* image width width must be min 1000px */
+}
+
+/* Media queries */
+@media handheld and (max-width: 480px), screen and (max-device-width: 480px), screen and (max-width: 767px)  { }
+
+@media handheld and (max-width: 479px), screen and (max-device-width: 479px), screen and ( max-width: 479px)  {
+  .thumbnail li.col-2, .grid-list li.col-2 { 
+    width: 90% ;
+  }
+
+  .thumbnail li.col-1, .grid-list li.col-1 { 
+    width: 90%;
+  }
+}
+
+/* Logo bigger on mobile */
+
+/*layouts smaller than 600px, iPhone and mobiles*/
+@media only screen and (max-width: 480px), screen and (max-device-width: 480px), screen and (max-width: 600px)  {
+#header #logo {width: 90%;}
+}
+/*--------------------------
+SOCIAL ICONS
+---------------------------*/
+/*Bottom Social Icon*/
+.bottom_social_icon, .bottom_social_icon li{list-style:none; padding:0; margin:0; float:left}
+.bottom_social_icon{float:left; width:100%}
+.bottom_social_icon li a{display:block; text-indent:-99999999px; margin:0 7px 20px 0; width:32px; height:32px}
+.bottom_social_icon li.twitter a{background:url(../images/icon_twitter.png) no-repeat center}
+.bottom_social_icon li.flickr a{background:url(../images/icon_flickr.png) no-repeat center}
+.bottom_social_icon li.delicious a{background:url(../images/b_icon_delicious.png) no-repeat center}
+.bottom_social_icon li.skype a{background:url(../images/b_icon_skype.png) no-repeat center}
+.bottom_social_icon li.facebook a{background:url(../images/b_icon_facebook.png) no-repeat center}
+.bottom_social_icon li.lanyrd a{background:url(../images/icon_lanyrd.png) no-repeat center}
+
+/*--------------------------
+FIGURES & IMAGES
+---------------------------*/
+img {margin-bottom : 0em; max-width : 100%; }
+
+
+.mark {
+background-color: yellow;
+}
+
+/*--------------------------
+Styling NL Feld
+---------------------------*/
+
+.formularfeld {
+  padding:15px 15px 15px 25px;  
+  background: #ffde00;
+  margin: 0 0 1em 0;
+}
+
+.formularfeld input[type=email] {background-color: white; border: none; padding: 8px; width: 250px; font-family: monospace; font-size:inherit;  margin-left: 10px;
+	
+}
+
+#sessions img {
+  height: 70px;
+  float: left;
+  margin: 0 1em 1em 0;
+}
+
+#sessions p, #sessions ul {
+  clear: both;
+}
+
+#sessions h3 {
+  margin-bottom: 0;
+}

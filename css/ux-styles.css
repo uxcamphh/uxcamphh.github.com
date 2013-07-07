@@ -1,4 +1,7 @@
 
+html * {
+  box-sizing: border-box; /* quickfix because THERE IS NO TIME */
+} 
 
 /* START area for fixed header, must be 50px higher for logo */
 #home {
@@ -113,7 +116,6 @@ Styling NL Feld
   margin: 0 0 1em 0;
 }
 
-.formularfeld input[type=email] {background-color: white; border: none; padding: 8px; width: 250px; font-family: monospace; font-size:inherit;  margin-left: 10px;
 	
 }
 
@@ -129,4 +131,14 @@ Styling NL Feld
 
 #sessions h3 {
   margin-bottom: 0;
+}
+
+.formularfeld input[type=email] {background-color: white; border: none; padding: 8px; width: 100%; font-family: monospace; font-size:inherit;  margin-left: 0px;
+
+.formularfeld {
+  overflow: hidden ;
+}
+
+.submitButton, .email {
+  float: right;
 }

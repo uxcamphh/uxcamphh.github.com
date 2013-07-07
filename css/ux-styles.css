@@ -142,3 +142,7 @@ Styling NL Feld
 .submitButton, .email {
   float: right;
 }
+
+.socialBar p{
+  text-align: center;
+}

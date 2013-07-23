@@ -165,11 +165,10 @@ SOCIAL ICONS
 .bottom_social_icon, .bottom_social_icon li{list-style:none; padding:0; margin:0; float:left}
 .bottom_social_icon{float:left; width:100%}
 .bottom_social_icon li a{display:block; text-indent:-99999999px; margin:0 7px 20px 0; width:32px; height:32px}
-.bottom_social_icon li.twitter a{background:url(../images/b_icon_twitter.png) no-repeat center}
-.bottom_social_icon li.facebook a{background:url(../images/b_icon_facebook.png) no-repeat center}
-.bottom_social_icon li.dribbble a{background:url(../images/b_icon_dribbble.png) no-repeat center}
-.bottom_social_icon li.delicious a{background:url(../images/b_icon_delicious.png) no-repeat center}
-.bottom_social_icon li.skype a{background:url(../images/b_icon_skype.png) no-repeat center}
+.bottom_social_icon li.twitter a{background:url(../images/icon_twitter.png) no-repeat center}
+.bottom_social_icon li.flickr a{background:url(../images/icon_flickr.png) no-repeat center}
+.bottom_social_icon li.lanyrd a{background:url(../images/icon_lanyrd.png) no-repeat center}
+
 
 /*--------------------------
 QUICKSAND

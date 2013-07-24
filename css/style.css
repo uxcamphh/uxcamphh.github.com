@@ -93,7 +93,7 @@ HEADINGS
 ---------------------------*/
 h1, h2, h3, h4 , h5, h6{margin-bottom:1em;  font-family:"PodkovaRegular", Times, serif;color:#353232; }
 h1{font-size:2em;}
-h2{ font-size:1.375em; }
+h2{ font-size:1.575em;}
 h3{ font-size:1.296em;}
 h4{ font-size:1.234em;}
 .title{ background:url(../images/stripe_bg.gif) repeat-x center left; font-size:1.1em; text-align:center; width:100%;  color:#5f5f5f; margin-bottom:2em}
@@ -128,7 +128,7 @@ GRID LIST WITH THUMBNAILS
 LINKS
 ---------------------------*/
 a{ -webkit-transition-property:background color; -webkit-transition-duration:0.12s; -webkit-transition-timing-function:ease-out; -moz-transition-property:background color; -moz-transition-duration:0.12s; -moz-transition-timing-function:ease-out; -o-transition-property:background color; -o-transition-duration:0.12s; -o-transition-timing-function:ease-out}
-a{text-decoration:underline; color:#949494;}
+a{text-decoration:underline; color:#000000;}
 a:visited{opacity:0.8; /* A bit basic,but it's a bare minumum... */}
 a:hover{ color:#000;}
 a:active, a:focus{ outline:none;}

@@ -21,7 +21,7 @@ html * {
   background-color: #F0F0F0;
 }
 
-body{ min-height:100%; background:#fff; float:left; width:100%; font-size:.85em; color:#353232;}
+body{ min-height:100%; background:#F0F0F0; float:left; width:100%; font-size:.85em; color:#353232;}
 
 #main-menu ul li a {
   font-family: Helvetica, Arial, sans-serif;

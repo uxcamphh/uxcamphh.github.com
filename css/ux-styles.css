@@ -101,6 +101,13 @@ FIGURES & IMAGES
 ---------------------------*/
 img {margin-bottom : 0em; max-width : 100%; }
 
+.ticketbutton {
+	display:block;
+	width: 300px;
+    margin: 0px auto;
+    text-align: left;
+    padding-bottom: 40px;
+}   /*---- Eventbrite Positionierung Button center --*/
 
 .mark {
 background-color: yellow;

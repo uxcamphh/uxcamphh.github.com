@@ -295,3 +295,7 @@ body{ min-height:100%; background:#fff; float:left; width:100%; font-size:.8125e
   margin-top: -45px;
   margin-left: -160px;
 }
+
+.give-away-sponsors img {
+  height: 20px;
+}

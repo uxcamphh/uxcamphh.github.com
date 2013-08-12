@@ -96,6 +96,9 @@ SOCIAL ICONS
 .bottom_social_icon li.facebook a{background:url(../images/b_icon_facebook.png) no-repeat center}
 .bottom_social_icon li.lanyrd a{background:url(../images/icon_lanyrd.png) no-repeat center}
 
+.bottom_social_icon ul { list-style: none; position: relative; float: left; display: block; left: 50%; }
+.bottom_social_icon ul li { position: relative; float: left; display: block; right: 50%; }
+
 /*--------------------------
 FIGURES & IMAGES
 ---------------------------*/

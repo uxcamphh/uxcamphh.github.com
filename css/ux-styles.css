@@ -1,3 +1,22 @@
+/*--------------------------
+Versuch macht kluch
+---------------------------*/
+
+
+#sponsors a {
+	position: relative;
+}
+#sponsors a img {
+	display: block;
+}
+
+
+
+
+
+
+
+
 
 html * {
   box-sizing: border-box; /* quickfix because THERE IS NO TIME */
@@ -155,14 +174,3 @@ Styling NL Feld
 
 
 
-/*--------------------------
-Versuch macht kluch
----------------------------*/
-
-
-#sponsors a {
-	position: relative;
-}
-#sponsors a img {
-	display: block;
-}

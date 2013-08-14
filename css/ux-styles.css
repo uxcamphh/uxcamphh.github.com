@@ -3,10 +3,10 @@ Versuch macht kluch
 ---------------------------*/
 
 
-#sponsors a {
+section a {
 	position: relative;
 }
-#sponsors a img {
+#sponsors a {
 	display: block;
 }
 

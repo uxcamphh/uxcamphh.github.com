@@ -152,3 +152,17 @@ Styling NL Feld
 .socialBar p{
   text-align: center;
 }
+
+
+
+/*--------------------------
+Versuch macht kluch
+---------------------------*/
+
+
+section a {
+	position: relative;
+}
+section a img {
+	display: block;
+}

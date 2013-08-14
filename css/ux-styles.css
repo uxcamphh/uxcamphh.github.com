@@ -1,5 +1,5 @@
 /*--------------------------
-Versuch macht kluch
+HenfixtdasCSS
 ---------------------------*/
 
 
@@ -12,6 +12,7 @@ section a {
 
 
 
+/*-------------------------*/
 
 
 
@@ -109,9 +110,6 @@ SOCIAL ICONS
 .bottom_social_icon li a{display:block; text-indent:-99999999px; margin:0 7px 20px 0; width:32px; height:32px}
 .bottom_social_icon li.twitter a{background:url(../images/icon_twitter.png) no-repeat center}
 .bottom_social_icon li.flickr a{background:url(../images/icon_flickr.png) no-repeat center}
-.bottom_social_icon li.delicious a{background:url(../images/b_icon_delicious.png) no-repeat center}
-.bottom_social_icon li.skype a{background:url(../images/b_icon_skype.png) no-repeat center}
-.bottom_social_icon li.facebook a{background:url(../images/b_icon_facebook.png) no-repeat center}
 .bottom_social_icon li.lanyrd a{background:url(../images/icon_lanyrd.png) no-repeat center}
 
 .bottom_social_icon ul { list-style: none; position: relative; float: left; display: block; left: 50%; }
@@ -145,7 +143,7 @@ Styling NL Feld
 
 
 #sessions img {
-  height: 70px;
+/*---height: 70px; ---*/
   float: left;
   margin: 0 1em 1em 0;
 }

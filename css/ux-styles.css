@@ -160,9 +160,9 @@ Versuch macht kluch
 ---------------------------*/
 
 
-section a {
+#sponsors a {
 	position: relative;
 }
-section a img {
+#sponsors a img {
 	display: block;
 }

@@ -170,5 +170,36 @@ Styling NL Feld
   text-align: center;
 }
 
+/*--------------------------
+Buttons
+---------------------------*/
 
+
+.button:hover,
+.button:focus,
+.button:active,
+.button.active {
+    border-color: #ffd917;
+    border-bottom-color: #ffd500;
+    text-decoration: none;
+    text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
+    color: #fff;
+    background-color: #fff200;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#599bdc), to(#3072b3));
+    background-image: -moz-linear-gradient(#599bdc, #3072b3);
+    background-image: -o-linear-gradient(#599bdc, #3072b3);
+    background-image: linear-gradient(#599bdc, #3072b3);
+}
+
+.button:active,
+.button.active {
+    border-color: #ffd917;
+    border-bottom-color: #ffd500;
+    background-color: #fff200;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#3072b3), to(#599bdc));
+    background-image: -moz-linear-gradient(#3072b3, #599bdc);
+    background-image: -ms-linear-gradient(#3072b3, #599bdc);
+    background-image: -o-linear-gradient(#3072b3, #599bdc);
+    background-image: linear-gradient(#3072b3, #599bdc);
+}
 
